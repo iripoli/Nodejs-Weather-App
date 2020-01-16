@@ -32,7 +32,7 @@ app.get('/weather', (req, res)=>{
     const address = req.query.address
     if(!address){
         return res.send({
-            error:"You must enter address in text box"
+            error:"You must enter a city in text box"
         })
     }
 
