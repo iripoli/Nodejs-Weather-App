@@ -132,5 +132,16 @@ p a {
 
 
 @media (max-width: 600px){
-  
+  .widget{
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    display: flex;
+    height: 551px;
+    width: 836px;
+    transform: translate(-50%, -50%);
+    flex-wrap: wrap;
+    border-radius: 20px;
+    box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3), 0 17px 17px 0 rgba(0, 0, 0, 0.15);
 }
+  }
